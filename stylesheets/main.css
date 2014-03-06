@@ -1,0 +1,51 @@
+html{
+  font-family: 'Open Sans', sans-serif;
+  color: #afafaf;
+  font-size: 12px;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+  color: #FF0000;
+  margin: 0px;
+}
+
+h1{
+  color: #000000;
+}
+
+header{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+a .link{
+  color: #000000;
+  text-decoration: underline;
+  text-align: right;
+}
+
+a:hover .link{
+  color: #FF0000;
+}
+
+
+a .project{
+  border-left: solid 5px #FFFFFF;
+}
+
+a:hover .project{
+  border-left: solid 5px #ff0000;
+}
+
+.project {
+  margin: 10px;
+  padding-left: 10px;
+}
